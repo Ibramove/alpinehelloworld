@@ -8,7 +8,7 @@ pipeline {
        IMAGE_TAG = "latest"
        STAGING = "ibrahima-staging"
        PRODUCTION = "ibrahima-production" 
-     }
+     } 
      agent none
      stages {
          stage('Build image') {
